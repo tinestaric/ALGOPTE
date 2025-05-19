@@ -1,10 +1,10 @@
 {
-  "id": "7b1ca6ae-852b-498e-9c73-75f34a1e2d15",
-  "name": "DDT.Test",
+  "id": "e41bc0b8-20a2-4107-9af0-52fa5d44a7f9",
+  "name": "DataDrivenTests",
   "publisher": "StarReach Software",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "Data Driven Tests",
+  "description": "Data Driven Tests",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -12,33 +12,31 @@
   "logo": "",
   "dependencies": [
     {
+      "id": "23de40a6-dfe8-4f80-80db-d70f83ce8caf",
+      "name": "Test Runner",
       "publisher": "Microsoft",
-      "name": "Library Assert",
-      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
-      "version": "22.0.0.0"
-    },
-    {
-      "publisher": "Microsoft",
-      "name": "Any",
-      "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
-      "version": "22.0.0.0"
+      "version": "26.0.0.0"
     }
   ],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "26.0.0.0",
   "idRanges": [
     {
       "from": 90100,
       "to": 90149
     }
   ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
   "features": [
     "NoImplicitWith"
   ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+  "resourceFolders": [
+    "TestCases"
+  ]  
 }
